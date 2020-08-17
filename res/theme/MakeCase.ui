@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" name="MakeCase" cloudDestinationProperty="MakeCase" uiid="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="CNT1" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="SpanLabel" name="SpanLabel" cloudDestinationProperty="SpanLabel" uiid="Label" >
+      <custom name="text" type="java.lang.String" value="Test labe;" />
+    </component>
+    <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="RedLabel" text="Category" >
+    </component>
+    <component type="Picker" name="Picker" cloudDestinationProperty="Picker" text="Picker" >
+    </component>
+    <component type="TextArea" name="TextArea" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextAreaRed" text="This is test" rows="4" >
+    </component>
+    <component type="OnOffSwitch" name="OnOffSwitch" cloudDestinationProperty="OnOffSwitch" >
+    </component>
+    <component type="Tabs" name="Tabs1" cloudDestinationProperty="Tabs1" >
+      <component type="Container" name="Container3" tabTitle="Tab" cloudDestinationProperty="Container3" >
+        <component type="TextArea" name="TextArea1" cloudBoundProperty="text" cloudDestinationProperty="TextArea1" text="TextArea1" >
+        </component>
+      </component>
+      <component type="Container" name="Container4" tabTitle="Tab" cloudDestinationProperty="Container4" >
+        <component type="ComboBox" name="ComboBox" cloudDestinationProperty="ComboBox" >
+          <stringItem value="Item 1" />
+          <stringItem value="Item 2" />
+          <stringItem value="Item 3" />
+        </component>
+      </component>
+      <component type="Container" name="Container5" tabTitle="Tab" cloudDestinationProperty="Container5" >
+      </component>
+    </component>
+    <component type="MultiButton" name="MultiButton" cloudDestinationProperty="MultiButton" >
+      <custom name="line1" type="java.lang.String" value="" />
+      <custom name="line2" type="java.lang.String" value="line2" />
+      <custom name="line3" type="java.lang.String" value="line3" />
+      <custom name="icon" type="com.codename1.ui.Image" value="switch_on.png" />
+      <custom name="iconUiid" type="java.lang.String" value="MIcon" />
+      <custom name="emblem" type="com.codename1.ui.Image" value="switch_off.png" />
+    </component>
+    <component type="MultiButton" name="MultiButton1" cloudDestinationProperty="MultiButton" >
+      <custom name="line1" type="java.lang.String" value="" />
+      <custom name="line2" type="java.lang.String" value="line2" />
+      <custom name="line3" type="java.lang.String" value="line3" />
+      <custom name="icon" type="com.codename1.ui.Image" value="switch_on.png" />
+      <custom name="emblem" type="com.codename1.ui.Image" value="switch_off.png" />
+    </component>
+    <component type="MultiButton" name="MultiButton11" cloudDestinationProperty="MultiButton" >
+      <custom name="line1" type="java.lang.String" value="" />
+      <custom name="line2" type="java.lang.String" value="line2" />
+      <custom name="line3" type="java.lang.String" value="line3" />
+      <custom name="icon" type="com.codename1.ui.Image" value="switch_on.png" />
+      <custom name="emblem" type="com.codename1.ui.Image" value="switch_off.png" />
+    </component>
+    <component type="MultiButton" name="MultiButton12" cloudDestinationProperty="MultiButton" >
+      <custom name="line1" type="java.lang.String" value="" />
+      <custom name="line2" type="java.lang.String" value="line2" />
+      <custom name="line3" type="java.lang.String" value="line3" />
+      <custom name="icon" type="com.codename1.ui.Image" value="switch_on.png" />
+      <custom name="emblem" type="com.codename1.ui.Image" value="switch_off.png" />
+    </component>
+    <component type="Tabs" name="Tabs" cloudDestinationProperty="Tabs" >
+      <component type="Container" name="Container1" tabTitle="Tab" cloudDestinationProperty="Container1" >
+        <component type="RadioButton" name="RadioButton" cloudDestinationProperty="RadioButton" text="RadioButton" >
+        </component>
+      </component>
+      <component type="Container" name="Container2" tabTitle="Tab" cloudDestinationProperty="Container2" >
+        <component type="MultiButton" name="MultiButton2" cloudDestinationProperty="MultiButton2" >
+        </component>
+      </component>
+    </component>
+  </component>
+</component>

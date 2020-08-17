@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" name="ListingComponent" cloudDestinationProperty="ListingComponent" uiid="Listing" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="3" flowLayoutValign="0" >
+    <component type="Button" name="Button" cloudDestinationProperty="Button" text="Open" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="SentCategory" text="Category" >
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="MultiLine3" text="address" >
+    </component>
+    <component type="Label" name="Label2" cloudDestinationProperty="Label2" uiid="MultiLine3" text="case number" >
+    </component>
+    <component type="Label" name="Label3" cloudDestinationProperty="Label3" uiid="SentDetails" text="details...." >
+    </component>
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="SentEnd" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="2" >
+    <component type="Container" name="Container4" cloudDestinationProperty="Container4" >
+      <component type="Label" name="Label7" cloudDestinationProperty="Label7" uiid="MultiLine2" text="Date" >
+      </component>
+    </component>
+    <component type="Container" name="Container3" cloudDestinationProperty="Container3" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="3" flowLayoutValign="0" >
+      <component type="Label" name="Label4" cloudDestinationProperty="Label4" uiid="MultiLine2" text="Photo" >
+      </component>
+      <component type="Label" name="Label5" cloudDestinationProperty="Label5" uiid="MultiLine2" text="Video" >
+      </component>
+      <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="MultiLine2" text="Audio" >
+      </component>
+    </component>
+  </component>
+</component>
